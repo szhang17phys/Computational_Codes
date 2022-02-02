@@ -1,0 +1,3 @@
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_GroupExer_2/build/CMakeFiles/rebuild_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_GroupExer_2/build/CMakeFiles/edit_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_GroupExer_2/build/CMakeFiles/makeplots_final.dir

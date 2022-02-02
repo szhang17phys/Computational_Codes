@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/include/cpDoubleRep.hpp
+bitset
+-
+cmath
+-
+iomanip
+-
+iostream
+-
+sstream
+-
+string
+-
+
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/src/cpDoubleRep.cpp
+cpDoubleRep.hpp
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/src/cpDoubleRep.hpp
+

@@ -1,0 +1,1 @@
+/N/soft/rhel7/gcc/6.3.0/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcpGenSample.so -o /N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/lib/libcpGenSample.so CMakeFiles/cpGenSample.dir/cpGenSample.cpp.o 

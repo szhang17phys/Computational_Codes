@@ -1,0 +1,1 @@
+/N/soft/rhel7/gcc/6.3.0/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcpRandom.so -o /N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/lib/libcpRandom.so CMakeFiles/cpRandom.dir/cpRandom.cpp.o 

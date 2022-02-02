@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/examples/02_Computing/Computing/testComputing.cpp
+iostream
+-
+sstream
+-
+string
+-
+

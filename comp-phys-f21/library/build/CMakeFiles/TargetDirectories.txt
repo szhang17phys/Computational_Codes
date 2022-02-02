@@ -1,0 +1,14 @@
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/rebuild_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpGenSample.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpInterpolate.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpPDE.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpODEstep.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpDoubleRep.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/edit_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpRandom.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpODEmodel.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpStatistics.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpFunctions.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpQuadrature.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpMatrix.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/build/CMakeFiles/cpFourier.dir

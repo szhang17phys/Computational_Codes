@@ -1,0 +1,3 @@
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_Group_4/build/CMakeFiles/edit_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_Group_4/build/CMakeFiles/rebuild_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_Group_4/build/CMakeFiles/random_final.dir

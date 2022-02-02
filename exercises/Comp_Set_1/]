@@ -1,0 +1,50 @@
+#ifndef COMP_SET1_H
+#define COMP_SET1_H
+
+#include <cmath>
+#define PI acos(-1)
+
+//For problem 1, about pendulum------
+class pend{
+    public:
+        double s; //theta
+        double dsdt; //d theta / dt
+        double ddsddt; //d^2 theta / dt^2
+        double s0;//analytical theta
+
+};
+
+//For problem 1, motion------
+double f(double theta){
+    double result = 0.0;
+    result = -4*PI*PI*sin(theta);
+
+    return result;
+}
+
+//For problem 1------
+double Energy(double s, double dsdt ){
+    double energy = 0.0;
+    double T = 0.0;
+    double V = 0.0;
+    
+    T = 1.0/(32*pow(PI, 4))*pow(dsdt, 2); 
+    V = 1.0/(4*pow(PI, 2))*(1-cos(s));
+    energy = T + V;
+    energy = energy*10000;
+    return energy;
+}
+
+//For proble 1, small angle approximation------
+double theta(double Amp, double t){
+    double angle = 0.0;
+    double omega = 2*PI;
+    
+    angle = Amp*cos(omega*t);
+
+    return angle;
+}
+
+
+
+#endif

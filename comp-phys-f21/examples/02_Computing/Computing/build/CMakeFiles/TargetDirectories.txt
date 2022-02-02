@@ -1,0 +1,3 @@
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/examples/02_Computing/Computing/build/CMakeFiles/rebuild_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/examples/02_Computing/Computing/build/CMakeFiles/edit_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/examples/02_Computing/Computing/build/CMakeFiles/testComputing.dir

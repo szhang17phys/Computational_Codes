@@ -1,0 +1,3 @@
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_Set_3/Prob2/partE/build/CMakeFiles/edit_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_Set_3/Prob2/partE/build/CMakeFiles/rebuild_cache.dir
+/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_Set_3/Prob2/partE/build/CMakeFiles/work_2e.dir

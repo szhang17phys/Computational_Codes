@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/include/cpFourier.hpp
+vector
+-
+
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/include/cpUtils.hpp
+cstdlib
+-
+iostream
+-
+sstream
+-
+string
+-
+cmath
+-
+ctime
+-
+
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/src/cpFourier.cpp
+cmath
+-
+cpFourier.hpp
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/src/cpFourier.hpp
+cpUtils.hpp
+/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/src/cpUtils.hpp
+

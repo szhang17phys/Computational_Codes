@@ -1,0 +1,489 @@
+The system is: Linux - 3.10.0-1160.45.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /N/soft/rhel7/gcc/6.3.0/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/3.18.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /N/soft/rhel7/gcc/6.3.0/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/3.18.4/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ec073/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec073.dir/build.make CMakeFiles/cmTC_ec073.dir/build
+gmake[1]: Entering directory `/geode2/home/u090/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o
+/N/soft/rhel7/gcc/6.3.0/bin/cc   -v -o CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -c /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/cc1 -quiet -v -iprefix /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/ /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccq4GLDb.s
+GNU C11 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 6.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed"
+ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/N/soft/rhel7/gcc/6.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed
+ /usr/local/include
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C11 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 6.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 778867ecee6f0e94bc209140692dd20c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o /tmp/ccq4GLDb.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/
+LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_ec073
+/geode2/soft/hps/rhel7/cmake/gnu/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec073.dir/link.txt --verbose=1
+/N/soft/rhel7/gcc/6.3.0/bin/cc  -v -rdynamic CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -o cmTC_ec073 
+Using built-in specs.
+COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/cc
+COLLECT_LTO_WRAPPER=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/
+LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec073' '-mtune=generic' '-march=x86-64'
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/collect2 -plugin /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccg0dgzi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ec073 /lib/../lib64/crt1.o /lib/../lib64/crti.o /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc -L/N/soft/rhel7/gcc/6.3.0/lib64/../lib64 -L/N/soft/rhel7/gcc/6.3.0/lib/../lib64 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/N/soft/rhel7/gcc/6.3.0/lib64 -L/N/soft/rhel7/gcc/6.3.0/lib -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../.. CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec073' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/geode2/home/u090/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include;/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include;/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed;/usr/local/include;/geode2/soft/hps/rhel7/gcc/6.3.0/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_ec073/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec073.dir/build.make CMakeFiles/cmTC_ec073.dir/build]
+  ignore line: [gmake[1]: Entering directory `/geode2/home/u090/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/N/soft/rhel7/gcc/6.3.0/bin/cc   -v -o CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -c /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/cc1 -quiet -v -iprefix /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/ /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccq4GLDb.s]
+  ignore line: [GNU C11 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/N/soft/rhel7/gcc/6.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 778867ecee6f0e94bc209140692dd20c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o /tmp/ccq4GLDb.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/]
+  ignore line: [LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_ec073]
+  ignore line: [/geode2/soft/hps/rhel7/cmake/gnu/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec073.dir/link.txt --verbose=1]
+  ignore line: [/N/soft/rhel7/gcc/6.3.0/bin/cc  -v -rdynamic CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -o cmTC_ec073 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/]
+  ignore line: [LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ec073' '-mtune=generic' '-march=x86-64']
+  link line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/collect2 -plugin /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccg0dgzi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ec073 /lib/../lib64/crt1.o /lib/../lib64/crti.o /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc -L/N/soft/rhel7/gcc/6.3.0/lib64/../lib64 -L/N/soft/rhel7/gcc/6.3.0/lib/../lib64 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/N/soft/rhel7/gcc/6.3.0/lib64 -L/N/soft/rhel7/gcc/6.3.0/lib -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../.. CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccg0dgzi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ec073] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0]
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib64/../lib64] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib64/../lib64]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib/../lib64] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib/../lib64]
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib64] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib64]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib]
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..]
+    arg [CMakeFiles/cmTC_ec073.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0]
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib64/../lib64] ==> [/N/soft/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib/../lib64] ==> [/N/soft/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib64] ==> [/N/soft/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib] ==> [/N/soft/rhel7/gcc/6.3.0/lib]
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0;/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc;/N/soft/rhel7/gcc/6.3.0/lib64;/geode2/soft/hps/rhel7/gcc/6.3.0/lib64;/lib64;/usr/lib64;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin;/N/soft/rhel7/gcc/6.3.0/lib;/geode2/soft/hps/rhel7/gcc/6.3.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_af5f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af5f9.dir/build.make CMakeFiles/cmTC_af5f9.dir/build
+gmake[1]: Entering directory `/geode2/home/u090/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o
+/N/soft/rhel7/gcc/6.3.0/bin/c++   -v -o CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -c /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/cc1plus -quiet -v -iprefix /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/ -D_GNU_SOURCE /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc7hJbeH.s
+GNU C++14 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 6.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include"
+ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed"
+ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/N/soft/rhel7/gcc/6.3.0/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include
+ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/x86_64-pc-linux-gnu
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed
+ /usr/local/include
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 6.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 046d0a44e3729109d9b17596fd7846db
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7hJbeH.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/
+LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_af5f9
+/geode2/soft/hps/rhel7/cmake/gnu/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af5f9.dir/link.txt --verbose=1
+/N/soft/rhel7/gcc/6.3.0/bin/c++  -v -rdynamic CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_af5f9 
+Using built-in specs.
+COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/c++
+COLLECT_LTO_WRAPPER=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/
+LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_af5f9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/collect2 -plugin /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ER4dS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_af5f9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc -L/N/soft/rhel7/gcc/6.3.0/lib64/../lib64 -L/N/soft/rhel7/gcc/6.3.0/lib/../lib64 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/N/soft/rhel7/gcc/6.3.0/lib64 -L/N/soft/rhel7/gcc/6.3.0/lib -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../.. CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_af5f9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/geode2/home/u090/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include]
+    add: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/x86_64-pc-linux-gnu]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  collapse include dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/include/c++/6.3.0]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/x86_64-pc-linux-gnu] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/include/c++/6.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/include/c++/6.3.0/backward]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include;/geode2/soft/hps/rhel7/gcc/6.3.0/include/c++/6.3.0;/geode2/soft/hps/rhel7/gcc/6.3.0/include/c++/6.3.0/x86_64-pc-linux-gnu;/geode2/soft/hps/rhel7/gcc/6.3.0/include/c++/6.3.0/backward;/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include;/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed;/usr/local/include;/geode2/soft/hps/rhel7/gcc/6.3.0/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /N/u/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_af5f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af5f9.dir/build.make CMakeFiles/cmTC_af5f9.dir/build]
+  ignore line: [gmake[1]: Entering directory `/geode2/home/u090/szh2/Carbonate/CompPhys_szhang/exercises/Comp_final_project/part3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/N/soft/rhel7/gcc/6.3.0/bin/c++   -v -o CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -c /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/cc1plus -quiet -v -iprefix /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/ -D_GNU_SOURCE /geode2/soft/hps/rhel7/cmake/gnu/3.18.4/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc7hJbeH.s]
+  ignore line: [GNU C++14 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include"]
+  ignore line: [ignoring duplicate directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/N/soft/rhel7/gcc/6.3.0/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/pstl/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/include]
+  ignore line: [ /N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/include]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../include/c++/6.3.0/backward]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 6.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 046d0a44e3729109d9b17596fd7846db]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7hJbeH.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/]
+  ignore line: [LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_af5f9]
+  ignore line: [/geode2/soft/hps/rhel7/cmake/gnu/3.18.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af5f9.dir/link.txt --verbose=1]
+  ignore line: [/N/soft/rhel7/gcc/6.3.0/bin/c++  -v -rdynamic CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_af5f9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/N/soft/rhel7/gcc/6.3.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/N/soft/rhel7/gcc/6.3.0 --with-long-double-128 --enable-host-shared --disable-multilib --enable-threads]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/:/N/soft/rhel7/xalt/2.10.30/bin/]
+  ignore line: [LIBRARY_PATH=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/:/N/soft/rhel7/gcc/6.3.0/lib64/../lib64/:/N/soft/rhel7/gcc/6.3.0/lib/../lib64/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7/:/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin/:/N/soft/rhel7/gcc/6.3.0/lib64/:/N/soft/rhel7/gcc/6.3.0/lib/:/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_af5f9' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/collect2 -plugin /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/liblto_plugin.so -plugin-opt=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9ER4dS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_af5f9 /lib/../lib64/crt1.o /lib/../lib64/crti.o /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc -L/N/soft/rhel7/gcc/6.3.0/lib64/../lib64 -L/N/soft/rhel7/gcc/6.3.0/lib/../lib64 -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7 -L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin -L/N/soft/rhel7/gcc/6.3.0/lib64 -L/N/soft/rhel7/gcc/6.3.0/lib -L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../.. CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9ER4dS.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_af5f9] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtbegin.o] ==> ignore
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0]
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib64/../lib64] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib64/../lib64]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib/../lib64] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib/../lib64]
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+    arg [-L/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib64] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib64]
+    arg [-L/N/soft/rhel7/gcc/6.3.0/lib] ==> dir [/N/soft/rhel7/gcc/6.3.0/lib]
+    arg [-L/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..] ==> dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..]
+    arg [CMakeFiles/cmTC_af5f9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0]
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib64/../lib64] ==> [/N/soft/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib/../lib64] ==> [/N/soft/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../../../lib64] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7]
+  collapse library dir [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin] ==> [/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib64] ==> [/N/soft/rhel7/gcc/6.3.0/lib64]
+  collapse library dir [/N/soft/rhel7/gcc/6.3.0/lib] ==> [/N/soft/rhel7/gcc/6.3.0/lib]
+  collapse library dir [/geode2/soft/hps/rhel7/gcc/6.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/6.3.0/../../..] ==> [/geode2/soft/hps/rhel7/gcc/6.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0;/geode2/soft/hps/rhel7/gcc/6.3.0/lib/gcc;/N/soft/rhel7/gcc/6.3.0/lib64;/geode2/soft/hps/rhel7/gcc/6.3.0/lib64;/lib64;/usr/lib64;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/ipp/lib/intel64;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/compiler/lib/intel64_lin;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/mkl/lib/intel64_lin;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/tbb/lib/intel64/gcc4.7;/N/soft/rhel7/intel/19.5/compilers_and_libraries_2019.5.281/linux/daal/lib/intel64_lin;/N/soft/rhel7/gcc/6.3.0/lib;/geode2/soft/hps/rhel7/gcc/6.3.0/lib]
+  implicit fwks: []
+
+

@@ -1,0 +1,1 @@
+/N/soft/rhel7/gcc/6.3.0/bin/c++ -rdynamic CMakeFiles/testQuadrature.dir/testQuadrature.cpp.o -o testQuadrature   -L/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/lib  -Wl,-rpath,/N/u/szh2/Carbonate/CompPhys_szhang/comp-phys-f21/library/lib -lcpQuadrature -lcpFunctions -lcpInterpolate 
